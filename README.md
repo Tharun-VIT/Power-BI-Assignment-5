@@ -88,3 +88,17 @@ To **Connect to a Data source**, click on **"Get Data"** option in Home Tab. Sel
 ![image](https://user-images.githubusercontent.com/89411580/151587065-21d08758-485a-4968-b610-5a80681023ad.png)
 
 Reference : https://powerbi.microsoft.com/en-us/blog/power-bi-google-analytics-power-analytics/
+
+### 5. How to import Local files in Power BI? Mention the Steps.
+
+- In the home tab, click on **_"Get Data"_**. Select the type of file from the list available.
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/89411580/151589268-533da4b7-1e7e-470a-86d8-5ead60de1c13.png">
+
+- If not available, then click on **_"more"_** and in search for the type of file which you want to load from local disk.
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/89411580/151589502-ff37508d-3927-4c26-b265-30b8f523ef2c.png">
+
+- Once you select the type of file and click **_"Connect"_**, a window opens allowing you to select the file where it is available.
+- Select the file and click **_"Open"_**
+- If it is an Excel/CSV file, select the sheets which you want to load and click **_"Load"_**
+<img width="661" alt="image" src="https://user-images.githubusercontent.com/89411580/151589354-daa3ef52-4b68-4e76-acfa-02ca04e36086.png">
+
