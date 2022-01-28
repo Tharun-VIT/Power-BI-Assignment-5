@@ -21,3 +21,30 @@ Total Sales in East = ADDCOLUMNS (
 **Dashboards** are also a form of reports. The unique thing is it a summarized form of report. It contains the same elements as reports have. But the important key information alone is added to dashboard from multiple reports. For example, we may create multiple indivudual reports on Facebook, Instragram, LinkedIn data how people interact with our Business page. A Dashboard for same case might try to depict "How to Digital media covers audience and accounts for Business?" which may contain some tile or visuals from the reports created individually on Facebook, Instagram or LinkedIn data.
 
 **Relation** between these three is in hierarchical Manner. From processed Dataset we create multiple reports and from multiple reports, we create unique Dashboards. Ofcourse both reports and Dashboards are accessible to stakeholders. Dataset is processed is Power BI desktop and Reports and Dashboards are accessed by stakeholders through Power BI service/Mobile.
+
+### 3. How reports can be created in power BI, explain two ways with Navigation of each.
+
+There are 3 primary sections in home page which is used to create contents in Reports
+- **Canvas** - The center blank white is the canvas where visuals will appear
+- **Fields Pane** - Contains queries and columns of the dataset 
+- **Visualization Pane** - To edit and format visualizations
+
+Reports can be created in two ways
+- Select the fields first then visualizations after
+- Select the type of visual first then the fields after
+
+**METHOD 1**
+
+ **step 1** - Select 2 columns from Field Pane to visualize the data in 2D chart.
+ **step 2** - When clicking them, a suitable visual will appear in the canvas area.
+ **step 3** - Drag them and position them properly. Use formatting options in Visualization Pane for Customization.
+ **step 4** - If you want to change the type of graph, select the chart tile in canvas and click the required type of graph in Visualization Pane.
+
+**METHOD 2**
+
+**step 1** - Select the chart type. An empty tile will appear in Canvas.
+**step 2** - Click and drag the Columns to Fields and Values field in Visualization pane.
+**step 3** - If we want to categorize the 2D plot with category as 3rd Dimension, the drop the column in Legend Field
+**step 4** - Use formatting options in Visualization Pane for Customization.
+
+Click File-->Save and type the name of the report. Now once we save our Report in Power BI desktop, it is time to publish it in Power BI service. Click on "Publish" option in Home Tab. Type the Name of report and select the workspace on which you want to publish the report. Now we have created a report for the stakeholders in workspace.
