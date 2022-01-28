@@ -102,3 +102,12 @@ Reference : https://powerbi.microsoft.com/en-us/blog/power-bi-google-analytics-p
 - If it is an Excel/CSV file, select the sheets which you want to load and click **_"Load"_**
 <img width="661" alt="image" src="https://user-images.githubusercontent.com/89411580/151589354-daa3ef52-4b68-4e76-acfa-02ca04e36086.png">
 
+### 6. In Power BI visualization, what are Reading View and Editing view?
+
+There are two modes of interacting with the visualizing in reports
+- Reading view
+- Editing view
+
+In **Reading mode**, users can only view or interact with the published reports in Power BI service. Clients in the workspace are restricted with Reading mode. But still users can view the visualizations changing dynamically, identify patterns/trend, get insights, query the reports.
+
+**Editing mode** is generally used by Report designers or Analysts who collect data and create reports. Only they can add or delete tiles or visualizations from the reports. A much of modification priviledge is granted in this view.
