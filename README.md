@@ -25,10 +25,11 @@ Total Sales in East = ADDCOLUMNS (
 ### 3. How reports can be created in power BI, explain two ways with Navigation of each.
 
 There are 3 primary sections in home page which is used to create contents in Reports
+
 - **Canvas** - The center blank white is the canvas where visuals will appear
-- 
+
 - **Fields Pane** - Contains queries and columns of the dataset 
-- 
+ 
 - **Visualization Pane** - To edit and format visualizations
 
 Reports can be created in two ways
@@ -47,6 +48,7 @@ Reports can be created in two ways
  
  **step 4** - If you want to change the type of graph, select the chart tile in canvas and click the required type of graph in Visualization Pane.
 
+
 **METHOD 2**
 
 **step 1** - Select the chart type. An empty tile will appear in Canvas.
@@ -56,5 +58,6 @@ Reports can be created in two ways
 **step 3** - If we want to categorize the 2D plot with category as 3rd Dimension, the drop the column in Legend Field
 
 **step 4** - Use formatting options in Visualization Pane for Customization.
+
 
 Click File-->Save and type the name of the report. Now once we save our Report in Power BI desktop, it is time to publish it in Power BI service. Click on "Publish" option in Home Tab. Type the Name of report and select the workspace on which you want to publish the report. Now we have created a report for the stakeholders in workspace.
