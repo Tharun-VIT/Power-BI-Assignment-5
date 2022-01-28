@@ -5,6 +5,7 @@
 DAX is the formula language associated with the Data Model of Microsoft Excel Power Pivot and with Microsoft Power BI. It is used to calculate values, create calculated columns, filter query and many other tasks through Expressions or formulas. DAX formulas enable you to perform data modeling, data analysis, and use the results for reporting and decision making. DAX is a very important skill for Analyst to work with Power BI. 
 
 A sample DAX Expression.
+
 Total Sales in East = ADDCOLUMNS ( 
    Products,"East_Sales", SUMX (RELATEDTABLE(East_Sales), 
       IF([Product] = East_Sales[Product], East_Sales[Sales Amount],0) 
