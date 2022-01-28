@@ -61,3 +61,30 @@ Reports can be created in two ways
 
 
 Click File-->Save and type the name of the report. Now once we save our Report in Power BI desktop, it is time to publish it in Power BI service. Click on "Publish" option in Home Tab. Type the Name of report and select the workspace on which you want to publish the report. Now we have created a report for the stakeholders in workspace.
+
+### 4. How to connect to data in Power BI? How to use the content pack to connect to google analytics? Mention the steps.
+
+To **Connect to a Data source**, click on **"Get Data"** option in Home Tab. Select the respective Data source. There are multiple sources of data to connect with, i.e, to Database or Cloud or Local File etc., Given below is the screenshot of Getting Data from a web source.
+![image](https://user-images.githubusercontent.com/89411580/151568693-aa9aa1b0-65cd-4a89-987a-afa2da6663a2.png)
+
+**_Using Content Pack to Connect to Google Analytics_**
+
+- In the left navigation pane, click Get Data.
+![image](https://user-images.githubusercontent.com/89411580/151586830-ee8e90ab-4a00-4d81-807d-fa70abdef74a.png)
+
+- In the Services box, click Get.
+![image](https://user-images.githubusercontent.com/89411580/151586877-29c11014-9a05-4239-a194-d758c1a1ff3c.png)
+
+- From the menu of online services, select Google Analytics, and then click Connect.
+![image](https://user-images.githubusercontent.com/89411580/151586933-5fc5b3ce-d862-4bc5-a57f-c867e0f1eb47.png)
+
+- Enter the Google Analytics account, property, and view that you want to connect to. Then sign in with your Google Analytics credentials.
+![image](https://user-images.githubusercontent.com/89411580/151586952-45f320b4-c0c0-4d44-884e-b122224aadfe.png)
+
+- To permit Power BI to connect to Google Analytics, click Accept.
+![image](https://user-images.githubusercontent.com/89411580/151587019-ec1b9683-9fce-4dff-97c0-5abf010bc940.png)
+
+- When the import process completes, you will see a new dashboard, report, and model in the Navigation Pane. Select the dashboard to view your imported data.
+![image](https://user-images.githubusercontent.com/89411580/151587065-21d08758-485a-4968-b610-5a80681023ad.png)
+
+Reference : https://powerbi.microsoft.com/en-us/blog/power-bi-google-analytics-power-analytics/
